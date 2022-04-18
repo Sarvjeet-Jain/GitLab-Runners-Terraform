@@ -1,0 +1,9 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: regcred
+  namespace: gitlab-runners
+data:
+  .dockerconfigjson: >-
+    eyJhdXRocyI6eyJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOnsiYXV0aCI6ImMybHRjR3g1WVdkcGJHVTZXa0JBYTJseVlUSXhNelU9In19fQo=
+type: kubernetes.io/dockerconfigjson
