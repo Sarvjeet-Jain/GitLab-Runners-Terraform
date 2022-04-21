@@ -5,7 +5,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: default
-    namespace: gitlab-runners
+    namespace: <value>
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
